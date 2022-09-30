@@ -1,0 +1,269 @@
+body
+{
+  margin:0 0 0 0;
+  background-image: url(../image/grade11/bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item
+{
+    opacity:0.4;
+    transition:.4s ease all;
+    margin:0 20px;
+    transform:scale(.8);
+    padding-left: 100px;
+}
+
+@media  only screen and (max-width: 1000px)
+{
+  .item{margin:0; transform:scale(.9)}
+}
+
+.active .item
+{
+  opacity:1;
+  transform:scale(1);
+}
+
+.owl-item 
+{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.inner{position:absolute; bottom:30px; left:0; right:0; text-align:center;}
+.inner a{color:#fff; text-decoration:none; border-bottom:2px solid rgba(255,255,255,0.5); transition:.3s ease border-color}
+.inner a:hover{border-color:#fff;}
+.black .inner a{color:#000; border-color:rgba(0,0,0,0.4)}
+.black .inner a:hover{border-color:#000;}
+
+.owl-controls{position:absolute; margin-top:300px;display: none;}
+
+@media  only screen and (min-width: 1920px)
+{
+
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: 720px;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -35.8%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -9%;
+        width: 822px;
+        height: 548px;
+    }
+
+    #content2
+    {
+        margin-top: 9.5%;
+    }
+
+
+    .animate__animated.animate__slideInLeft
+    {
+        --animate-duration: 2s;
+    }
+
+    
+
+}
+
+
+@media  only screen and (min-width: 1600px) and (max-width: 1919px)
+{
+
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -42%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -9%;
+        width: 822px;
+        height: 548px;
+    }
+
+    #content2
+    {
+        margin-top: 10.25%;
+    }
+}
+
+@media  only screen and (min-width: 1400px) and (max-width: 1599px)
+{
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: 550px;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -35%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -10.5%;
+        width: 660px;
+        height: 440px;
+    }
+
+    #content2
+    {
+        width: 786.84px;
+        height: 130.31px;
+        margin-top: 8.5%;
+    }
+}
+
+@media  only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: 550px;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -41%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -21%;
+        width: 648px;
+        height: 432px;
+    }
+
+    #content2
+    {
+        width: 786.84px;
+        height: 130.31px;
+        margin-top: 8%;
+    }
+}
+
+@media  only screen and (min-width: 1000px) and (max-width: 1199px)
+{
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: 550px;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -51%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -26%;
+        width: 648px;
+        height: 432px;
+    }
+
+    #content2
+    {
+        width: 983.55px;
+        height: 162.8px;
+        margin-top: 12.95%;
+    }
+
+}
+
+@media  only screen and (max-width: 812px) and (orientation: landscape)
+{
+    .animate__animated.animate__slideInDown 
+    {
+        --animate-duration: 3s;
+        
+    }
+
+    #content1
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .owl-carousel
+    {
+        margin-top: -41%;
+    }
+   
+    #gambar1
+    {
+        margin-left: -30%;
+        width: 324px;
+        height: 216px;
+    }
+
+    #content2
+    {
+        width: 60%;
+        height: auto;
+        margin-top: 8%;
+    }
+}
+
+
+@font-face
+{
+    font-family: "alfonso";
+    src: url(font/Alberto-Regular.otf);
+}
+
+@font-face
+{
+    font-family: "simple";
+    src: url(font/Simplicity-Regular.otf);
+}

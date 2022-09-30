@@ -1,0 +1,97 @@
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+body
+{
+  background-image: url(../image/page2/bgpage2.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#button
+{
+  transition: 0.5s;
+}
+
+#button:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.content1
+{
+  -webkit-animation: fade-out 1s ease-out 2s both;
+  animation: fade-out 1s ease-out 2s both;
+}
+
+.content1
+{
+  padding-top: 21%;
+}
+
+.content2
+{
+  margin-top: -7%;
+}
+
+.content3
+{
+  padding-top: 11%;
+}
+
+.animate__animated.animate__fadeIn
+{
+    --animate-duration: 1s;
+    
+}
+
+@media  only screen and (max-width: 812px) and (orientation: landscape)
+{
+  
+.content1
+{
+  padding-top: 21%;
+}
+
+.content2
+{
+  margin-top: -13%;
+}
+
+#content2
+{
+  width: 90%;
+  height: auto;
+}
+
+.content3
+{
+  padding-top: 11%;
+}
+
+#button
+{
+  width: 70%;
+  height: auto;
+}
+
+}
+
+
+

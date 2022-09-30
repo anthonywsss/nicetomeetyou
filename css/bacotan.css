@@ -1,0 +1,325 @@
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body
+{
+  background-image: url(../image/page3/bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#willie
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
+}
+
+#heri
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1.3s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1.3s both;
+}
+
+#nori
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2.1s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2.1s both;
+}
+
+#bulid
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2.9s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2.9s both;
+}
+
+#kotu
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 3.9s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 3.9s both;
+}
+
+#bulina
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 4.7s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 4.7s both;
+}
+
+#hanhan
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5.5s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5.5s both;
+}
+
+#jod
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 6.3s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 6.3s both;
+}
+
+#laoshi
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 7.1s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 7.1s both;
+}
+
+
+#sugi
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 7.9s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 7.9s both;
+}
+
+#bulina1
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 8.7s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 8.7s both;
+}
+
+.header
+{
+  margin-top: 0.5%;
+}
+
+#logo
+{
+  width: 10%;
+  height: auto;
+}
+
+/* ----------- Part 1 ----------- */
+.part1
+{
+  margin-top: 2%;
+}
+
+#willie
+{
+  width: 70%;
+  height: auto;
+}
+
+#heri
+{
+  width: 70%;
+  height: auto;
+}
+
+/* ----------- Part 2 ----------- */
+.part2
+{
+  margin-top: 2%;
+}
+
+#nori
+{
+  width: 80%;
+  height: auto;
+}
+
+#bulid
+{
+  width: 70%;
+  height: auto;
+}
+
+#kotu
+{
+  width: 85%;
+  height: auto;
+}
+
+/* ----------- Part 3 ----------- */
+.part3
+{
+  margin-top: 2%;
+}
+
+#bulina
+{
+  width: 70%;
+  height: auto;
+}
+
+#hanhan
+{
+  width: 70%;
+  height: auto;
+}
+
+/* ----------- Part 4 ----------- */
+.part4
+{
+  margin-top: 2%;
+}
+
+#jod
+{
+  width: 80%;
+  height: auto;
+}
+
+#laoshi
+{
+  width: 100%;
+  height: auto;
+}
+
+#sugi
+{
+  width: 75%;
+  height: auto;
+}
+
+/* ----------- Part 5 ----------- */
+.part5
+{
+  margin-top: 2%;
+}
+
+
+#button
+{
+  width: 20%;
+  height: auto;
+  transition: 0.5s;
+}
+
+#button:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+@media  only screen and (max-width: 812px) and (orientation: landscape)
+{
+  .header
+{
+  margin-top: 0.5%;
+}
+
+#logo
+{
+  width: 10%;
+  height: auto;
+}
+
+/* ----------- Part 1 ----------- */
+.part1
+{
+  margin-top: 2%;
+}
+
+#willie
+{
+  width: 70%;
+  height: auto;
+}
+
+#heri
+{
+  width: 70%;
+  height: auto;
+}
+
+/* ----------- Part 2 ----------- */
+.part2
+{
+  margin-top: 2%;
+}
+
+#nori
+{
+  width: 80%;
+  height: auto;
+}
+
+#bulid
+{
+  width: 70%;
+  height: auto;
+}
+
+#kotu
+{
+  width: 85%;
+  height: auto;
+}
+
+/* ----------- Part 3 ----------- */
+.part3
+{
+  margin-top: 2%;
+}
+
+#bulina
+{
+  width: 70%;
+  height: auto;
+}
+
+#hanhan
+{
+  width: 70%;
+  height: auto;
+}
+
+/* ----------- Part 4 ----------- */
+.part4
+{
+  margin-top: 2%;
+}
+
+#jod
+{
+  width: 80%;
+  height: auto;
+}
+
+#laoshi
+{
+  width: 100%;
+  height: auto;
+}
+
+#sugi
+{
+  width: 75%;
+  height: auto;
+}
+
+/* ----------- Part 5 ----------- */
+.part5
+{
+  margin-top: 2%;
+}
+
+
+#button
+{
+  width: 20%;
+  height: auto;
+  transition: 0.5s;
+}
+
+#button:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+}

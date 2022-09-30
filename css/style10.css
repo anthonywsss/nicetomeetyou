@@ -1,0 +1,466 @@
+body
+{
+  margin:0 0 0 0;
+  background-image: url(../image/grade10/bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.item
+{
+    opacity:0.4;
+    transition:.4s ease all;
+    margin:0 20px;
+    transform:scale(.8);
+}
+
+@media  only screen and (max-width: 1000px)
+{
+  .item{margin:0; transform:scale(.9)}
+}
+
+.active .item
+{
+  opacity:1;
+  transform:scale(1);
+}
+
+.owl-item 
+{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.inner{position:absolute; bottom:30px; left:0; right:0; text-align:center;}
+.inner a{color:#fff; text-decoration:none; border-bottom:2px solid rgba(255,255,255,0.5); transition:.3s ease border-color}
+.inner a:hover{border-color:#fff;}
+.black .inner a{color:#000; border-color:rgba(0,0,0,0.4)}
+.black .inner a:hover{border-color:#000;}
+
+.owl-controls{position:absolute; margin-top:300px;display: none;}
+
+@media  only screen and (min-width: 1920px)
+{
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+        margin-top: -5.7%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 85px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -1.9%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 3.1%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 85px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -6.1%;
+    }
+
+    #moving1
+    {
+        margin-top: -1.5%;
+    }
+    
+    #footer
+    { 
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 45px;
+    }
+}
+
+
+@media  only screen and (min-width: 1600px) and (max-width: 1919px)
+{
+    body
+    {
+    margin:0 0 0 0;
+    background-image: url(image/bg1.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+        margin-top: -6.7%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 85px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -2.3%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 7.9%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 85px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -7.1%;
+    }
+
+    #moving1
+    {
+        margin-top: -1%;
+    }
+    
+    #footer
+    { 
+        padding-top: 0.3%;
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 45px;
+        margin-top: 0.5%;
+    }
+}
+
+@media  only screen and (min-width: 1400px) and (max-width: 1599px)
+{
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 60px;
+        margin-top: -6.2%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 70px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -2.2%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 3.7%;
+    }
+
+    #gambar1
+    {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 60px;
+        margin-bottom: -5%;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 70px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -6.6%;
+    }
+
+    #moving1
+    {
+        margin-top: -2.2%;
+    }
+    
+    #footer
+    { 
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 40px;
+    }
+}
+
+@media  only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 48px;
+        margin-top: -6.2%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 58px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -2.2%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 4.4%;
+    }
+
+    #gambar1
+    {
+        width: 92%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 48px;
+        margin-bottom: -5%;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 58px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -6.9%;
+    }
+
+    #moving1
+    {
+        margin-top: -2.7%;
+    }
+    
+    #footer
+    { 
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 33px;
+    }
+}
+/* ----------- Mobile Devices----------- */
+
+/* ----------- ipad ----------- */
+@media  only screen and (min-width: 1000px) and (max-width: 1199px)
+{
+    body
+    {
+    margin:0 0 0 0;
+    background-image: url(../image/grade10/bg1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+        margin-top: -10.6%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 84px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -4%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 7%;
+    }
+
+    #gambar1
+    {
+        width: 130%;
+        height: auto;
+        margin-left: -13%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 70px;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 84px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -11.3%;
+    }
+
+    #moving1
+    {
+        margin-top: -0.7%;
+    }
+    
+    #footer
+    { 
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 45px;
+        margin-top: 0.5%;
+        margin-bottom: -1.5%;
+    }
+}
+
+@media  only screen and (max-width: 812px) and (orientation: landscape)
+{
+    #moving hr
+    {  
+        background-color: #fff200;
+        width: 100%;
+        height: 48px;
+        margin-top: -10.5%;
+    } 
+
+    #movingtext
+    { 
+        font-family: alfonso;
+        font-size: 58px;
+        color: #f6293a;
+        animation: linear infinite;
+        transform: rotate(180deg);
+    }
+    
+    #moving
+    {
+        margin-top: -3.5%;
+    }
+
+    .owl-carousel
+    {
+        margin-top: 4.4%;
+    }
+
+    #gambar1
+    {
+        width: 92%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #moving1 hr
+    {
+        background-color: #fff200;
+        width: 100%;
+        height: 48px;
+        margin-bottom: -5%;
+    }
+
+    #movingtext1
+    {  
+        font-family: alfonso;
+        font-size: 58px;
+        color: #f6293a;
+        animation: linear infinite;
+        margin-bottom: -11.7%;
+    }
+
+    #moving1
+    {
+        margin-top: -6%;
+    }
+    
+    #footer
+    { 
+        color: white;    
+        text-align: center;
+        font-family: "simple";
+        font-size: 25px;
+    }
+}
+
+
+
+@font-face
+{
+    font-family: "alfonso";
+    src: url(../font/Alberto-Regular.otf);
+}
+
+@font-face
+{
+    font-family: "simple";
+    src: url(../font/Simplicity-Regular.otf);
+}

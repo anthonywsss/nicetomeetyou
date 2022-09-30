@@ -1,0 +1,259 @@
+ @-webkit-keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  
+body
+{
+    background-color: #f10a43;
+}
+
+#button
+{
+  transition: 0.5s;
+}
+
+#button:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+.content1
+{
+	-webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+	        animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+
+.content2 {
+	-webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
+	        animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
+}
+
+@media  only screen and (min-width: 1920px)
+{
+#content
+{
+    width: 79%;
+    height: auto;
+    margin-bottom: -1%;
+}
+#content1
+{
+    width: 100%;
+    margin-top: -55.8%;
+    height: 1089px;
+}
+
+.button
+{
+    position: absolute;
+    bottom: 1000%;
+    left: 50%;
+    margin-top: -10%;
+}
+
+#tag
+{
+    margin-top: -4%;
+    font-family: simple;
+    font-size: 50px;
+    text-align: center;
+    color: #fff200;
+}
+
+
+}
+
+@media  only screen and (min-width: 1600px) and (max-width: 1919px)
+{
+    #content
+    {
+        width: 79%;
+        height: auto;
+        margin-bottom: -2%;
+    }
+    #content1
+    {
+        width: 100%;
+        margin-top: -54.3%;
+    }
+    
+    .button
+    {
+        position: absolute;
+        bottom: 600%;
+        left: 50%;
+        margin-top: -10%;
+    }
+    
+    #tag
+    {
+        margin-top: -4%;
+        font-family: simple;
+        font-size: 50px;
+        text-align: center;
+        color: #fff200;
+    }
+}    
+
+
+@media  only screen and (min-width: 1400px) and (max-width: 1599px)
+{
+        #content
+        {
+            width: 79%;
+            height: auto;
+            margin-bottom: -2%;
+        }
+        #content1
+        {
+            width: 100%;
+            margin-top: -54.3%;
+        }
+        
+        .button
+        {
+            position: absolute;
+            bottom: 400%;
+            margin-top: -10%;
+        }
+        
+        #tag
+        {
+            margin-top: -4%;
+            font-family: simple;
+            font-size: 45px;
+            text-align: center;
+            color: #fff200;
+        }
+}
+
+
+@media  only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+    #content
+    {
+        width: 79%;
+        height: auto;
+        margin-bottom: -2%;
+    }
+    #content1
+    {
+        width: 100%;
+        margin-top: -54.4%;
+    }
+    
+    .button
+    {
+        position: absolute;
+        bottom: 500%;
+        margin-top: -11%;
+    }
+    
+    #tag
+    {
+        margin-top: -4.3%;
+        font-family: simple;
+        font-size: 38px;
+        text-align: center;
+        color: #fff200;
+    }
+}
+
+@media  only screen and (min-width: 1000px) and (max-width: 1199px)
+{
+    #content
+    {
+        width: 79%;
+        height: auto;
+        margin-bottom: -2%;
+    }
+    #content1
+    {
+        width: 100%;
+        margin-top: -55%;
+    }
+    
+    .button
+    {
+        position: absolute;
+        bottom: 400%;
+        margin-top: -11%;
+    }
+    
+    #tag
+    {
+        margin-top: -4.5%;
+        font-family: simple;
+        font-size: 30px;
+        text-align: center;
+        color: #fff200;
+    }
+}
+
+@media  only screen and (max-width: 812px) and (orientation: landscape)
+{
+    #content
+    {
+        width: 79%;
+        height: auto;
+        margin-bottom: -2%;
+    }
+    #content1
+    {
+        width: 100%;
+        margin-top: -56.1%;
+    }
+    
+    .button
+    {
+        position: absolute;
+        bottom: 400%;
+        margin-top: -11%;
+    }
+
+    #button
+    {
+        width: 50%;
+        height: auto;
+    }
+    
+    #tag
+    {
+        margin-top: -5%;
+        font-family: simple;
+        font-size: 22px;
+        text-align: center;
+        color: #fff200;
+    }
+}
+
+@font-face 
+{
+	font-family: "simple";
+	src: url("../font/Simplicity-Regular.otf");
+}
+
